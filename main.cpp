@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+// Falling Balls solution
 
 void dfs(int node, int depth, int D, long long balls, vector<int>& leafStates, int leafStart) {
     if (depth == D) {
