@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 // Falling Balls solution
+// solution by OpenHands
 
 void dfs(int node, int depth, int D, long long balls, vector<int>& leafStates, int leafStart) {
     if (depth == D) {
